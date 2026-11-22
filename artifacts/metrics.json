@@ -1,0 +1,338 @@
+{
+  "track": "nlp",
+  "model": "cointegrated/rubert-tiny2",
+  "revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+  "dataset": "Babelscape/wikineural",
+  "classes": [
+    "LOC",
+    "MISC",
+    "ORG",
+    "PER"
+  ],
+  "n_train": 20000,
+  "n_val": 11540,
+  "n_test": 11580,
+  "params_total": 29098929,
+  "baseline": {
+    "majority": {
+      "f1_micro": 0.49554033739769493,
+      "f1_macro": 0.4199065672873253,
+      "precision": 0.6325799573560767,
+      "recall": 0.4073036792970895
+    },
+    "random_head": {
+      "f1_micro": 0.029393424222334538,
+      "f1_macro": 0.028270139891322568,
+      "precision": 0.016691889635223688,
+      "recall": 0.12295442064799561
+    }
+  },
+  "final": {
+    "f1_micro": 0.8233667660612631,
+    "f1_macro": 0.7864662625631951,
+    "precision": 0.8081630481055768,
+    "recall": 0.8391534976240469,
+    "token_f1": 0.8418205482795087,
+    "per_type": {
+      "LOC": {
+        "precision": 0.8949661736039445,
+        "recall": 0.9079804560260586,
+        "f1-score": 0.9014263440549748,
+        "support": 8596
+      },
+      "MISC": {
+        "precision": 0.6870794078061911,
+        "recall": 0.6893990546927752,
+        "f1-score": 0.6882372767104821,
+        "support": 2962
+      },
+      "ORG": {
+        "precision": 0.6774486094316807,
+        "recall": 0.7345132743362832,
+        "f1-score": 0.7048278031136971,
+        "support": 3051
+      },
+      "PER": {
+        "precision": 0.8174624109733579,
+        "recall": 0.8882201203783319,
+        "f1-score": 0.8513736263736265,
+        "support": 3489
+      }
+    }
+  },
+  "ablation": {
+    "setting": "freeze",
+    "split": "validation",
+    "seed": 0,
+    "full": {
+      "f1_micro": 0.8193597149489824,
+      "f1_macro": 0.7735554808038516,
+      "precision": 0.8057443193884052,
+      "recall": 0.8334431630971993,
+      "token_f1": 0.8364414171200731,
+      "seconds": 89.72453290002886,
+      "trainable_params": 29098929
+    },
+    "freeze": {
+      "f1_micro": 0.5432016075016745,
+      "f1_macro": 0.4055748796464641,
+      "precision": 0.5522642151855635,
+      "recall": 0.5344316309719934,
+      "seconds": 59.533292899955995,
+      "trainable_params": 2817
+    }
+  },
+  "errors": {
+    "correct": 15177,
+    "boundary": 902,
+    "type": 1688,
+    "missed": 443,
+    "spurious": 807
+  },
+  "device": "NVIDIA GeForce RTX 3080",
+  "train_time_sec": 89.72453290002886,
+  "fast_mode": false,
+  "dataset_revision": "74c9b9dca034bb1606a6769457983904bd976803",
+  "bonus": {
+    "6.1": {
+      "n_sentences": 60,
+      "entity_counts": {
+        "PER": 18,
+        "LOC": 30,
+        "ORG": 19,
+        "MISC": 14
+      },
+      "negative_sentences": 10,
+      "split": "separate_synthetic_test",
+      "original_test_f1": 0.8233667660612631,
+      "new_test": {
+        "f1_micro": 0.6626506024096386,
+        "f1_macro": 0.5706473062170213,
+        "precision": 0.6470588235294118,
+        "recall": 0.6790123456790124
+      },
+      "delta_f1": -0.16071616365162456,
+      "processing_seconds": 0.25534729997161776,
+      "human_annotation_seconds": null,
+      "construction_seconds": null,
+      "provenance": "Тексты и явная разметка составлены ассистентом; независимой человеческой проверки нет.",
+      "instructions": {
+        "PER": "Имена людей вместе с фамилией и отчеством; должность не входит в спан.",
+        "ORG": "Полное собственное название организации; родовое слово входит только в официальное название.",
+        "LOC": "Географические названия целиком; предлоги не входят в спан.",
+        "MISC": "Названия произведений, наград и именованных изделий; кавычки и родовое слово вне названия исключены.",
+        "general": "Плоские непересекающиеся спаны; сохраняется внешнее название. Токенизация отделяет пунктуацию, дефис внутри слова сохраняется."
+      }
+    },
+    "6.2": {
+      "device": "NVIDIA GeForce RTX 3080",
+      "split": "test",
+      "seed": 0,
+      "main": {
+        "model": "cointegrated/rubert-tiny2",
+        "revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+        "train_seconds": 89.72453290002886,
+        "scores": {
+          "f1_micro": 0.8233667660612631,
+          "f1_macro": 0.7864662625631951,
+          "precision": 0.8081630481055768,
+          "recall": 0.8391534976240469,
+          "token_f1": 0.8418205482795087,
+          "per_type": {
+            "LOC": {
+              "precision": 0.8949661736039445,
+              "recall": 0.9079804560260586,
+              "f1-score": 0.9014263440549748,
+              "support": 8596
+            },
+            "MISC": {
+              "precision": 0.6870794078061911,
+              "recall": 0.6893990546927752,
+              "f1-score": 0.6882372767104821,
+              "support": 2962
+            },
+            "ORG": {
+              "precision": 0.6774486094316807,
+              "recall": 0.7345132743362832,
+              "f1-score": 0.7048278031136971,
+              "support": 3051
+            },
+            "PER": {
+              "precision": 0.8174624109733579,
+              "recall": 0.8882201203783319,
+              "f1-score": 0.8513736263736265,
+              "support": 3489
+            }
+          }
+        },
+        "validation": {
+          "f1_micro": 0.8193597149489824,
+          "f1_macro": 0.7735554808038516,
+          "precision": 0.8057443193884052,
+          "recall": 0.8334431630971993,
+          "token_f1": 0.8364414171200731
+        },
+        "mean_ms": 5.686504993354902,
+        "std_ms": 0.8926222399208853,
+        "repeats": 20,
+        "warmup": 5,
+        "batch_shape": [
+          32,
+          65
+        ],
+        "parameters": 29098929,
+        "weights_mib": 111.00360488891602
+      },
+      "other": {
+        "model": "cointegrated/rubert-tiny",
+        "revision": "5441c5ea8026d4f6d7505ec004845409f1259fb1",
+        "train_seconds": 85.58954479999375,
+        "scores": {
+          "f1_micro": 0.79565453557849,
+          "f1_macro": 0.757065658884801,
+          "precision": 0.7823950432646085,
+          "recall": 0.8093712012377058
+        },
+        "validation": {
+          "f1_micro": 0.7954108829179857,
+          "f1_macro": 0.7487438729783062,
+          "precision": 0.7840187763375474,
+          "recall": 0.8071389346512905
+        },
+        "mean_ms": 5.541080003604293,
+        "std_ms": 0.8739813551020451,
+        "repeats": 20,
+        "warmup": 5,
+        "batch_shape": [
+          32,
+          104
+        ],
+        "parameters": 11689329,
+        "weights_mib": 44.591251373291016
+      }
+    },
+    "6.3": {
+      "original": {
+        "f1_micro": 0.8193597149489824,
+        "f1_macro": 0.7735554808038516,
+        "precision": 0.8057443193884052,
+        "recall": 0.8334431630971993,
+        "token_f1": 0.8364414171200731,
+        "changed_words": 0,
+        "subwords_per_word": 1.2481343799869014,
+        "unknown_subwords": 167,
+        "lost_words": 58,
+        "truncated_sentences": 7
+      },
+      "lowercase": {
+        "f1_micro": 0.207668563353044,
+        "f1_macro": 0.20039599552554077,
+        "precision": 0.32169604793178935,
+        "recall": 0.15332235035694675,
+        "changed_words": 33097,
+        "subwords_per_word": 1.2893671189661375,
+        "unknown_subwords": 168,
+        "lost_words": 101,
+        "truncated_sentences": 7
+      },
+      "uppercase": {
+        "f1_micro": 0.0480806314761011,
+        "f1_macro": 0.045272550160812566,
+        "precision": 0.045206207996905674,
+        "recall": 0.05134541460735859,
+        "changed_words": 165045,
+        "subwords_per_word": 3.3204623232388455,
+        "unknown_subwords": 214,
+        "lost_words": 5728,
+        "truncated_sentences": 612
+      },
+      "typos": {
+        "f1_micro": 0.7726251387422507,
+        "f1_macro": 0.7210154739828443,
+        "precision": 0.7619200170858028,
+        "recall": 0.7836353651839648,
+        "changed_words": 33572,
+        "subwords_per_word": 1.5271979263714268,
+        "unknown_subwords": 167,
+        "lost_words": 185,
+        "truncated_sentences": 13
+      }
+    },
+    "6.4": {
+      "device": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "threads": 4,
+      "batch_shape": [
+        32,
+        65
+      ],
+      "warmup": 5,
+      "repeats": 30,
+      "fp32": {
+        "f1_micro": 0.8193597149489824,
+        "f1_macro": 0.773532038880465,
+        "precision": 0.8057443193884052,
+        "recall": 0.8334431630971993,
+        "mean_ms": 55.651683325413615,
+        "std_ms": 3.764624657113042,
+        "size_mib": 111.02325248718262
+      },
+      "int8": {
+        "f1_micro": 0.8193050609690299,
+        "f1_macro": 0.7735460178512658,
+        "precision": 0.8052285502174144,
+        "recall": 0.8338824821526634,
+        "mean_ms": 32.493683331025146,
+        "std_ms": 2.2992698981999404,
+        "size_mib": 104.47382736206055
+      },
+      "speedup": 1.712692364188737,
+      "delta_f1": -5.4653979952523635e-05,
+      "gpu_cpu_tag_differences": 3,
+      "quantized_linear_modules": 19
+    },
+    "6.5": {
+      "mean": {
+        "best": {
+          "threshold": 0.7116168737411499,
+          "precision": 0.862286872540837,
+          "recall": 0.7942888522789676,
+          "f1_micro": 0.8268922936199405,
+          "n_predicted": 16774
+        },
+        "threshold_zero": {
+          "threshold": 0.0,
+          "precision": 0.8057443193884052,
+          "recall": 0.8334431630971993,
+          "f1_micro": 0.8193597149489824,
+          "n_predicted": 18836
+        },
+        "delta_f1": 0.007532578670958134
+      },
+      "min": {
+        "best": {
+          "threshold": 0.6535905003547668,
+          "precision": 0.8603959807360723,
+          "recall": 0.7946732564524986,
+          "f1_micro": 0.8262296953952439,
+          "n_predicted": 16819
+        },
+        "threshold_zero": {
+          "threshold": 0.0,
+          "precision": 0.8057443193884052,
+          "recall": 0.8334431630971993,
+          "f1_micro": 0.8193597149489824,
+          "n_predicted": 18836
+        },
+        "delta_f1": 0.0068699804462615255
+      },
+      "test": {
+        "method": "mean",
+        "threshold": 0.7116168737411499,
+        "f1_micro": 0.8319581404709198,
+        "f1_macro": 0.7931805160361352,
+        "precision": 0.8671860952951753,
+        "recall": 0.7994806055917781
+      }
+    }
+  }
+}
