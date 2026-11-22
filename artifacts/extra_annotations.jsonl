@@ -1,0 +1,60 @@
+{"id": "custom-000", "tokens": ["Анна", "Смирнова", "приехала", "из", "Казани", "на", "конференцию", "."], "ner_tags": [1, 2, 0, 0, 5, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-001", "tokens": ["Редактор", "Павел", "Орлов", "встретился", "с", "коллегами", "в", "Томске", "."], "ner_tags": [0, 1, 2, 0, 0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-002", "tokens": ["Мария", "Иванова", "представила", "доклад", "в", "МГУ", "."], "ner_tags": [1, 2, 0, 0, 0, 3, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-003", "tokens": ["Алексей", "Петров", "отправил", "заявление", "в", "Яндекс", "."], "ner_tags": [1, 2, 0, 0, 0, 3, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-004", "tokens": ["На", "выставке", "в", "Самаре", "выступила", "Елена", "Волкова", "."], "ner_tags": [0, 0, 0, 5, 0, 1, 2, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-005", "tokens": ["Дмитрий", "Соколов", "вернулся", "в", "Нижний", "Новгород", "вечером", "."], "ner_tags": [1, 2, 0, 0, 5, 6, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-006", "tokens": ["Ольга", "Кузнецова", "работает", "в", "Российской", "академии", "наук", "."], "ner_tags": [1, 2, 0, 0, 3, 4, 4, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-007", "tokens": ["Писатель", "Иван", "Бунин", "родился", "в", "Воронеже", "."], "ner_tags": [0, 1, 2, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-008", "tokens": ["Юрий", "Гагарин", "совершил", "полёт", "на", "корабле", "Восток-1", "."], "ner_tags": [1, 2, 0, 0, 0, 0, 7, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-009", "tokens": ["Сергей", "Королёв", "учился", "в", "Москве", "."], "ner_tags": [1, 2, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-010", "tokens": ["Поезд", "из", "Санкт-Петербурга", "прибыл", "в", "Великий", "Новгород", "."], "ner_tags": [0, 0, 5, 0, 0, 5, 6, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-011", "tokens": ["Экспедиция", "пересекла", "Уральские", "горы", "и", "достигла", "Байкала", "."], "ner_tags": [0, 0, 5, 6, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-012", "tokens": ["Между", "Россией", "и", "Казахстаном", "открыли", "новый", "маршрут", "."], "ner_tags": [0, 5, 0, 5, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-013", "tokens": ["Путешественники", "остановились", "на", "берегу", "Белого", "моря", "."], "ner_tags": [0, 0, 0, 0, 5, 6, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-014", "tokens": ["Река", "Волга", "впадает", "в", "Каспийское", "море", "."], "ner_tags": [0, 5, 0, 0, 5, 6, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-015", "tokens": ["Самолёт", "вылетел", "из", "Нью-Йорка", "в", "Париж", "."], "ner_tags": [0, 0, 0, 5, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-016", "tokens": ["На", "Дальнем", "Востоке", "начался", "снегопад", "."], "ner_tags": [0, 5, 6, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-017", "tokens": ["Порт", "расположен", "в", "Ростове-на-Дону", "."], "ner_tags": [0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-018", "tokens": ["Студенты", "приехали", "в", "Йошкар-Олу", "на", "практику", "."], "ner_tags": [0, 0, 0, 5, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-019", "tokens": ["Автобус", "следует", "через", "Петропавловск-Камчатский", "."], "ner_tags": [0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-020", "tokens": ["Сбербанк", "открыл", "отделение", "в", "Омске", "."], "ner_tags": [3, 0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-021", "tokens": ["Газпром", "опубликовал", "годовой", "отчёт", "."], "ner_tags": [3, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-022", "tokens": ["Роскосмос", "сообщил", "о", "запуске", "спутника", "."], "ner_tags": [3, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-023", "tokens": ["Делегация", "ООН", "посетила", "Женеву", "."], "ner_tags": [0, 3, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-024", "tokens": ["Московский", "государственный", "университет", "объявил", "набор", "студентов", "."], "ner_tags": [3, 4, 4, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-025", "tokens": ["Российские", "железные", "дороги", "изменили", "расписание", "поездов", "."], "ner_tags": [3, 4, 4, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-026", "tokens": ["Исследователи", "Высшей", "школы", "экономики", "представили", "результаты", "опроса", "."], "ner_tags": [0, 3, 4, 4, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-027", "tokens": ["Компания", "Microsoft", "провела", "презентацию", "в", "Берлине", "."], "ner_tags": [0, 3, 0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-028", "tokens": ["Издательство", "Эксмо", "выпустило", "сборник", "рассказов", "."], "ner_tags": [0, 3, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-029", "tokens": ["Футбольный", "клуб", "Зенит", "провёл", "тренировку", "в", "Санкт-Петербурге", "."], "ner_tags": [3, 4, 4, 0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-030", "tokens": ["В", "библиотеке", "обсуждали", "роман", "Война", "и", "мир", "."], "ner_tags": [0, 0, 0, 0, 7, 8, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-031", "tokens": ["На", "экране", "показали", "фильм", "Солярис", "режиссёра", "Андрея", "Тарковского", "."], "ner_tags": [0, 0, 0, 0, 7, 0, 1, 2, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-032", "tokens": ["Школьники", "прочитали", "повесть", "Капитанская", "дочка", "."], "ner_tags": [0, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-033", "tokens": ["Александр", "Пушкин", "написал", "роман", "Евгений", "Онегин", "."], "ner_tags": [1, 2, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-034", "tokens": ["Учёный", "получил", "Нобелевскую", "премию", "по", "физике", "."], "ner_tags": [0, 0, 7, 8, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-035", "tokens": ["В", "музее", "выставили", "картину", "Девятый", "вал", "."], "ner_tags": [0, 0, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-036", "tokens": ["Оркестр", "исполнил", "балет", "Лебединое", "озеро", "."], "ner_tags": [0, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-037", "tokens": ["Преподаватель", "рекомендовал", "прочитать", "Мастера", "и", "Маргариту", "."], "ner_tags": [0, 0, 0, 7, 8, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-038", "tokens": ["В", "программе", "фестиваля", "был", "фильм", "Иваново", "детство", "."], "ner_tags": [0, 0, 0, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-039", "tokens": ["Посетители", "рассматривали", "картину", "Утро", "в", "сосновом", "лесу", "."], "ner_tags": [0, 0, 0, 7, 8, 8, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-040", "tokens": ["Банк", "России", "опубликовал", "заявление", "в", "Москве", "."], "ner_tags": [3, 4, 0, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-041", "tokens": ["Корреспондент", "ТАСС", "поговорил", "с", "Натальей", "Морозовой", "."], "ner_tags": [0, 3, 0, 0, 1, 2, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-042", "tokens": ["Лев", "Толстой", "жил", "в", "Ясной", "Поляне", "."], "ner_tags": [1, 2, 0, 0, 5, 6, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-043", "tokens": ["Сотрудники", "Института", "русского", "языка", "приехали", "в", "Псков", "."], "ner_tags": [0, 3, 4, 4, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-044", "tokens": ["Антон", "Чехов", "написал", "пьесу", "Вишнёвый", "сад", "."], "ner_tags": [1, 2, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-045", "tokens": ["Профессор", "Ли", "Вэй", "выступил", "в", "СПбГУ", "."], "ner_tags": [0, 1, 2, 0, 0, 3, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-046", "tokens": ["Жан-Поль", "Бельмондо", "родился", "во", "Франции", "."], "ner_tags": [1, 2, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-047", "tokens": ["Большой", "театр", "показал", "оперу", "Борис", "Годунов", "."], "ner_tags": [3, 4, 0, 0, 7, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-048", "tokens": ["Национальный", "исследовательский", "университет", "ИТМО", "находится", "в", "Санкт-Петербурге", "."], "ner_tags": [3, 4, 4, 4, 0, 0, 5, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-049", "tokens": ["Фёдор", "Достоевский", "написал", "роман", "Преступление", "и", "наказание", "."], "ner_tags": [1, 2, 0, 0, 7, 8, 8, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-050", "tokens": ["Сегодня", "студенты", "обсуждали", "результаты", "эксперимента", "."], "ner_tags": [0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-051", "tokens": ["Редактор", "вернул", "рукопись", "автору", "после", "проверки", "."], "ner_tags": [0, 0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-052", "tokens": ["В", "воскресенье", "библиотека", "открывается", "в", "десять", "часов", "."], "ner_tags": [0, 0, 0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-053", "tokens": ["На", "улице", "шёл", "дождь", ",", "поэтому", "встречу", "перенесли", "."], "ner_tags": [0, 0, 0, 0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-054", "tokens": ["Вчера", "команда", "завершила", "тестирование", "программы", "."], "ner_tags": [0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-055", "tokens": ["Сотрудники", "банка", "подготовили", "новый", "отчёт", "."], "ner_tags": [0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-056", "tokens": ["Городской", "музей", "закрылся", "на", "реконструкцию", "."], "ner_tags": [0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-057", "tokens": ["Поезд", "прибыл", "на", "станцию", "без", "опоздания", "."], "ner_tags": [0, 0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-058", "tokens": ["Учитель", "попросил", "учеников", "открыть", "учебники", "."], "ner_tags": [0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
+{"id": "custom-059", "tokens": ["После", "лекции", "слушатели", "задали", "несколько", "вопросов", "."], "ner_tags": [0, 0, 0, 0, 0, 0, 0], "source": "synthetic_explicit_annotation_by_assistant"}
